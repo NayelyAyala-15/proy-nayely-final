@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicio</title>
+    <!--ICONOS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--ICONOS-->
+
+    <!--ICONOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!--ICONOS-->
+    <!--BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--BOOSTRAP-->
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="styles.css">
+    <!--ESTILOS-->
+</head>
+
+<body>
+
+    <!--FONDOD DE LA PAGINA-->
+    <div class="fondo-img"></div>
+    <div class="contenido">
+
+
+        <!--NAV-->
+
+        <nav>
+            <div class="container-nav">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><span>🧸 Jugueteria</span>Kids</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                                style="--bs-scroll-height: 100px;">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white fw-bold text-uppercase" aria-current="page"
+                                        href="index.html"><img src="iconos/inicio.svg" alt="">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-bold text-uppercase" href="tienda.html"> <img
+                                            src="iconos/tienda.svg" alt="">Ubicacion</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white fw-bold text-uppercase"
+                                        href="catalogo.html" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <img src="iconos/catalogo.svg" alt="">Catalogo
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-dark fw-bold text-uppercase"
+                                                href="catalogo.html#peluche">Peluche</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-dark  fw-bold text-uppercase"
+                                                href="catalogo.html#muñecas">Muñecas</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item  text-dark  fw-bold text-uppercase"
+                                                href="catalogo.html#carros">Carros</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item  text-dark fw-bold text-uppercase"
+                                                href="catalogo.html#juegosmesa">Juegos de Mesa</a></li>
+
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-bold text-uppercase" href="contacto.html"> <img
+                                            src="iconos/contacto.svg" alt="">Contacto
+                                        y
+                                        Registro</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2 rounded-pill p-1 border-0" type="search"
+                                    placeholder="🔎 Buscar juguetes..." aria-label="Search">
+                                <button class="btn btn-warning rounded-pill shadow-sm border-0"
+                                    type="submit">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </nav><br>
+
+        <!--NAV-->
+
+
+
+        <!--HEADER-->
+
+        <header class="container">
+
+            <div id="carouselExampleIndicators" class="carousel slide w-75 mx-auto" data-bs-ride="carousel"
+                data-bs-interval="1500">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="img/1.png" class="d-block w-100 img-fluid" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/2.png" class="d-block w-100 img-fluid" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/3.png" class="d-block w-100 img-fluid" alt="">
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+            </div>
+
+        </header><br>
+        <!--HEADER-->
+
+        <!--MAIN-->
+        <main>
+
+
+            <div class="container" id="peluches">
+                <div class="catalogo-titulo">
+                    <h2>Peluches</h2>
+                </div><br>
+                <div class="row g-4">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/peluche01.webp" class="card-img-top" alt="...">
+                            <span class="oferta">-20%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Baby Yoda Peluche</h5>
+                                <p class="card-text">Suave peluche inspirado en Baby Yoda. Perfecto para abrazar y
+                                    decorar la habitación de los niños.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 79.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 99.99</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/peluche02.webp" class="card-img-top" alt="...">
+                            <span class="oferta">-22%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Capibara Peluche</h5>
+                                <p class="card-text">Adorable capibara de felpa ultra suave. Ideal para acompañar a los
+                                    pequeños en sus juegos y descanso.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 69.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 89.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/peluche03.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-20%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Pingüino Peluche</h5>
+                                <p class="card-text">Divertido pingüino de peluche con diseño tierno y materiales suaves
+                                    para abrazar.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 59.00</strong></p>
+                                <p class="descuento">Antes: <s>S/ 74.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/peluche04.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-24%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Muñeca de Trapo</h5>
+                                <p class="card-text">Muñeca de trapo colorida y suave, perfecta para estimular la
+                                    imaginación y el juego creativo.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 64.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 84.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/peluche05.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-26%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Oso de Peluche</h5>
+                                <p class="card-text">Clásico oso de peluche suave y acogedor. Un compañero ideal para
+                                    todas las edades.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 59.00</strong></p>
+                                <p class="descuento">Antes: <s>S/ 79.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/peluche06.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-21%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Caracol Peluche</h5>
+                                <p class="card-text">Peluche de caracol con diseño divertido y ojos grandes que
+                                    encantará a los niños.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 54.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 69.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/peluche07.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-24%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Tiburón Peluche</h5>
+                                <p class="card-text">Peluche de tiburón suave y divertido. Perfecto para los pequeños
+                                    amantes del océano.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 62.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 82.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/peluche08.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-22%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Perrito Peluche</h5>
+                                <p class="card-text">Perrito de peluche adorable y suave, ideal como regalo especial
+                                    para los niños.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 58.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 75.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><br>
+
+            <!--LINEA DE SEPARACION-->
+            <hr><br>
+            <!--LINEA DE SEPARACION-->
+
+
+
+            <div class="container" id="muñecas">
+                <div class="catalogo-titulo">
+                    <h2>Muñecas</h2>
+                </div><br>
+                <div class="row g-4">
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/muñeca01.jpg" class="card-img-top" alt="...">
+                            <!--elemento en lInea (inline): sirve para cosas pequeñas 
+                        dentro del diseño, 
+                        como íconos, etiquetas o texto corto.-->
+                            <span class="oferta">-21%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Muñeca Barbie Clásica</h5>
+                                <p class="card-text">Elegante muñeca Barbie con vestido rosado y estilo moderno.
+                                    Perfecta para recrear historias y estimular la imaginación.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 59.00</strong></p>
+                                <p class="descuento">Antes: <s>S/ 74.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/muñeca02.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-17%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Muñeca Baby Born Sister</h5>
+                                <p class="card-text"> Muñeca interactiva con accesorios incluidos. Ideal para que
+                                    los niños desarrollen creatividad y juegos de cuidado.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 199.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 239.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/muñeca03.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-24%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Muñeco Bebé Interactivo</h5>
+                                <p class="card-text">Divertido bebé juguete con accesorios y diseño adorable.
+                                    Perfecto para juegos de imaginación y aprendizaje.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 99.00</strong></p>
+                                <p class="descuento">Antes: <s>S/ 129.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/muñeca04.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-19%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Muñeca Cry Babies</h5>
+                                <p class="card-text"> Muñeca Cry Babies con diseño tierno y accesorios.
+                                    Ideal para niños que disfrutan juegos creativos.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 129.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 159.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/muñeca05.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-24%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Muñeca Alicia</h5>
+                                <p class="card-text"> Hermosa muñeca inspirada en Alicia, con vestido azul y detalles
+                                    encantadores. Perfecta para juegos y colección.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 79.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 104.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/muñeca06.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-23%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Muñeca Rapunzel</h5>
+                                <p class="card-text">Muñeca de Rapunzel con su característico vestido y largo cabello
+                                    dorado. Ideal para recrear cuentos mágicos.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 84.00</strong></p>
+                                <p class="descuento">Antes: <s>S/ 109.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/muñeca07.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-25%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Muñeca Cenicienta</h5>
+                                <p class="card-text">Elegante muñeca de Cenicienta con accesorios y vestido brillante.
+                                    Perfecta para niñas que aman los cuentos de princesas.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 89.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 119.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/muñeca08.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-23%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Barbie con Accesorios</h5>
+                                <p class="card-text"> Clásica muñeca Barbie con accesorios incluidos. Ideal para
+                                    estimular la imaginación y crear historias divertidas.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 49.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 64.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><br>
+
+            <!--LINEA DE SEPARACION-->
+            <hr><br>
+            <!--LINEA DE SEPARACION-->
+
+
+
+            <div class="container" id="carros">
+                <div class="catalogo-titulo">
+                    <h2>Carros</h2>
+                </div><br>
+                <div class="row g-4">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/carro1.jpg" class="card-img-top" alt="...">
+                            <!--elemento en lInea (inline): sirve para cosas pequeñas 
+                        dentro del diseño, 
+                        como íconos, etiquetas o texto corto.-->
+                            <span class="oferta">-27%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Jeep Aventura Barbie</h5>
+                                <p class="card-text">Colorido jeep de juguete con diseño moderno y ruedas grandes. Ideal
+                                    para recrear aventuras llenas de imaginación.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 39.00</strong></p>
+                                <p class="descuento">Antes: <s>S/ 59.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/carro2.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-25%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Auto Paseo Sonrisa</h5>
+                                <p class="card-text"> Divertido auto de paseo con diseño adorable y volante fácil de
+                                    usar.
+                                    Perfecto para los primeros juegos de conducción.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 59.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 79.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/carro3.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-29%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Bus Musical Infantil</h5>
+                                <p class="card-text">Bus interactivo con colores llamativos y accesorios divertidos.
+                                    Ideal
+                                    para estimular la creatividad y el aprendizaje.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 45.00</strong></p>
+                                <p class="descuento">Antes: <s>S/ 64.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/carro4.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-28%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Scooter Mini Ride</h5>
+                                <p class="card-text"> Pequeño scooter de juguete con diseño moderno y ruedas seguras.
+                                    Perfecto para juegos de imaginación y diversión.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 49.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 69.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/carro5.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-29%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Auto Andador Aventura</h5>
+                                <p class="card-text">Auto de montar con agarradera trasera para mayor seguridad. Ideal
+                                    para
+                                    paseos divertidos dentro y fuera de casa.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 52.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 74.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/carro6.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-25%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Mini Car Paseo Rosa</h5>
+                                <p class="card-text">Auto de montar colorido con diseño cómodo y ruedas resistentes.
+                                    Perfecto para pequeños conductores.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 89.00</strong></p>
+                                <p class="descuento">Antes: <s>S/ 119.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/carro7.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-26%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Corredor Infantil Turbo</h5>
+                                <p class="card-text">Auto deportivo de montar con volante fácil de manejar. Ideal para
+                                    juegos activos llenos de diversión.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 69.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 94.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/carro8.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-26%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Jeep Explorer Kids</h5>
+                                <p class="card-text"> Jeep infantil con estilo todoterreno y diseño resistente. Perfecto
+                                    para pequeños exploradores aventureros.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 55.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 75.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><br>
+
+
+            <!--LINEA DE SEPARACION-->
+            <hr><br>
+            <!--LINEA DE SEPARACION-->
+
+
+
+            <div class="container" id="juegosmesa">
+                <div class="catalogo-titulo">
+                    <h2>Juegos de Mesa</h2>
+                </div><br>
+                <div class="row g-4">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/juego1.jpg" class="card-img-top" alt="...">
+                            <!--elemento en lInea (inline): sirve para cosas pequeñas 
+                        dentro del diseño, 
+                        como íconos, etiquetas o texto corto.-->
+                            <span class="oferta">-23%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Juego Pie Face</h5>
+                                <p class="card-text">Divertido juego donde los jugadores compiten por atrapar la mayor
+                                    cantidad de ranas. Ideal para jugar en familia.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 49.00</strong></p>
+                                <p class="descuento">Antes: <s>S/ 64.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/juego2.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-20%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Juego Monos Locos</h5>
+                                <p class="card-text"> Muñeca interactiva con accesorios incluidos. Ideal para que
+                                    los niños desarrollen creatividad y juegos de cuidado.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 79.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 99.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/juego3.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-25%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Juego Cocodrilo Dentista</h5>
+                                <p class="card-text">Juego interactivo donde debes presionar los dientes del cocodrilo
+                                    sin
+                                    que cierre la boca. Diversión garantizada.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 29.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 39.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/juego4.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-25%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Monolopy Super Zing's</h5>
+                                <p class="card-text"> Juego con un tablero y piezas de colores
+                                    para que se diviertan en familia. Ideal para toda la familia.
+                                </p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 59.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 79.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/juego5.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-22%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Jenga Super Mario</h5>
+                                <p class="card-text"> Juego de habilidad donde los jugadores deben retirar piezas sin
+                                    que la
+                                    torre se caiga.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 69.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 89.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/juego6.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-30%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Juego numa FRIA</h5>
+                                <p class="card-text">Juego de mesa donde buscan escoger mediante
+                                    una ruleta para aplastar con los martillos. Ideal para la familia en general.
+                                </p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 34.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 49.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/juego7jpg.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-21%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Ludo MY</h5>
+                                <p class="card-text">Clásico juego de mesa donde los jugadores compiten por llegar
+                                    primero a
+                                    la meta.</p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 74.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 94.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="img/juego8.jpg" class="card-img-top" alt="...">
+                            <span class="oferta">-27%</span>
+                            <span class="favorito">
+                                <img src="iconos/favoritos.svg" alt="">
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Juego cat & mouse</h5>
+                                <p class="card-text">Juego del gato y raton, los jugadores buscan
+                                    escapar del gato, con fichas de ratones. Clásico para la familia.
+                                </p>
+                                <p class="precio-nuevo"><strong>Precio: S/ 39.90</strong></p>
+                                <p class="descuento">Antes: <s>S/ 54.90</s></p>
+                                <a href="#" class="btn-comprar"><img src="iconos/comprar.svg" alt="">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><br>
+        </main>
+        <!--MAIN-->
+
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

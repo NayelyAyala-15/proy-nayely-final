@@ -1,0 +1,554 @@
+/*Letra*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+html {
+    font-size: 8px;
+}
+
+body {
+    padding: 0.1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+/*pagina index header*/
+.hero-juguetes {
+    background: linear-gradient(135deg, #9b3737, #fff6f6);
+    padding: 4rem 0;
+}
+
+.hero-titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero-titulo span {
+    color: #e63946;
+}
+
+.hero-texto {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero-boton {
+    background: #e63946;
+    color: white;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border-radius: 0.6rem;
+    transition: 0.3s;
+}
+
+.hero-boton:hover {
+    background: #c1121f;
+    transform: scale(1.05);
+}
+
+.hero-img {
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+
+}
+
+.hero-img:hover {
+    transform: scale(1.05);
+
+}
+
+/*nosotros*/
+.titulo-principal {
+   text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 2rem;
+    max-width: 25rem;
+    margin: auto;
+    background: linear-gradient(50deg, rgb(119, 22, 7), rgb(205, 135, 135), rgb(129, 59, 59));
+}
+
+.img-nosotros {
+    max-width: 20rem;
+    transition: transform 0.4s ease;
+}
+
+.img-hover{
+position: relative;
+width: 100%;
+max-width: 20rem;
+margin: auto;
+}
+
+.img-hover img{
+width: 100%;
+display: block;
+}
+
+.img-hover-img{
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+transition: opacity 0.4s;
+}
+
+.img-hover:hover .img-hover-img{
+opacity: 1;
+}
+
+
+/*----------------------------------*/
+/*fondo*/
+.fondo-img {
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("img/fondoimg.jpg");
+    background-size: cover;
+    background-position: center;
+
+    filter: blur(0.2rem);
+    /*Aplica un efecto borroso a la imagen.*/
+    z-index: -1;
+    /*fondo detrás del contenido.*/
+}
+
+.contenido {
+    position: relative;
+}
+
+/*-----------------*/
+/*BARRA DE NAVEGACION*/
+
+
+/*menu de juguetes*/
+.navbar .dropdown-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 3000;
+    width: 200px;
+     border-radius:10px;
+}
+
+
+/*--------------------------------*/
+/*TITULOS*/
+
+.titulo {
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 40rem;
+    margin: auto;
+   background: linear-gradient(50deg, rgb(119, 22, 7), rgb(205, 135, 135), rgb(129, 59, 59));
+}
+
+.descripcion {
+    width: 90%;
+    max-width: 60rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/*--------------------------------*/
+/*TITULO TABLA*/
+
+.titulo-tabla {
+    margin-top: 2rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+   background: linear-gradient(50deg, rgb(119, 22, 7), rgb(205, 135, 135), rgb(129, 59, 59));
+}
+
+/*--------------------------------*/
+/*TABLA TIENDA*/
+
+.tabla-tienda {
+    width: 95%;
+    max-width: 70rem;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 2rem;
+}
+
+.tabla-tienda th {
+    background-color: #312f62;
+    color: white;
+    padding: 1rem;
+}
+
+.tabla-tienda td {
+    padding: 0.8rem;
+    border-bottom: 0.1rem solid #ddd;
+}
+
+.tabla-tienda tr:hover {
+    background-color: #f2f2f2;
+}
+
+/*--------------------------------*/
+/*TITULO UBICACION*/
+
+.titulo-ubicacion {
+    text-align: center;
+    margin-top: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+   background: linear-gradient(50deg, rgb(119, 22, 7), rgb(205, 135, 135), rgb(129, 59, 59));
+}
+
+/*--------------------------------*/
+/*CARDS UBICACION*/
+
+.container01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+}
+
+
+
+.descripcion-ubi p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.descripcion-ubi strong {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container01 img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+}
+
+.card-tienda {
+    width: 90%;
+    max-width: 24rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(2, 17, 144, 0.2);
+    text-align: center;
+}
+
+.container01 img:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.mapa {
+    width: 90%;
+    max-width: 60rem;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 35rem;
+    border: 0;
+    border-radius: 1rem;
+}
+
+/*--------------------------------*/
+/*Contacto y Registro*/
+/*Titulo*/
+.registro01 h2 {
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 2rem;
+    max-width: 25rem;
+    margin: auto;
+    background: linear-gradient(50deg, rgb(119, 22, 7), rgb(205, 135, 135), rgb(129, 59, 59));
+}
+
+/*botones*/
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.botones button {
+    background-color: rgb(120, 120, 120);
+    box-sizing: border-box;
+    padding: 0.7rem;
+    border: 0.1rem solid #444;
+    border-radius: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    max-width: 20rem;
+}
+
+.botones button:hover {
+    background-color: rgb(196, 196, 189);
+    transform: scale(1.02);
+    color: black;
+    border: 0.1rem solid #444444;
+
+}
+
+/*etiqueta label*/
+.container02 .form-label {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*etiqueta input*/
+.container02 .input-group {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*genero*/
+.container02 .genero option {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container02 .form-select {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* select Apreciacion*/
+.container02 .seleccion label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*CONDICIONES*/
+.container02 .form-check-label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*SELECCION (RADIO)*/
+.seleccion input {
+    width: auto;
+    margin: 0;
+}
+
+.form-grid .seleccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.seleccion label {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+
+/*-----------------------------*/
+/*PAGINA CATALOGO*/
+/*titulo principal*/
+.catalogo-titulo {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 2rem;
+    max-width: 25rem;
+    margin: auto;
+    background: linear-gradient(50deg, rgb(119, 22, 7), rgb(205, 135, 135), rgb(129, 59, 59));
+}
+
+/*card-imagenes*/
+.card {
+    height: 100%;
+    /*misma altura*/
+    padding-top: 1rem;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 16rem;
+    object-fit: contain;
+    padding: 1rem;
+    transition: transform 0.4s ease;
+
+}
+
+.card-img-top:hover {
+    transform: scale(1.08);
+}
+
+/*texto y boton comprar*/
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*titulo del juguete*/
+.card-body h5 {
+    font-family: "Berkshire Swash, serif";
+    font-weight: bold;
+
+}
+
+/*parrafo*/
+.card-text {
+    flex-grow: 1;
+    /*ocupa el espacio el texto*/
+    font-family: "Comic Neue, cursive";
+    text-align: justify;
+}
+
+/*precio*/
+.precio-nuevo {
+    color: #493b3b;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.descuento {
+    color: gray;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+
+/*oferta*/
+.oferta {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #e60023;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+}
+
+/*icono favoritos*/
+.favorito {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    background: white;
+    padding: 0.4rem;
+    border-radius: 50%;
+}
+
+.favorito img {
+    width: 1.2rem;
+}
+
+/*boton*/
+.btn-comprar img {
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.btn-comprar {
+    background-color: #953c3c;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0.2rem solid #ae0606;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease;
+
+}
+
+.btn-comprar:hover {
+    background-color: #b75454;
+    border: 0.2rem solid #bf3939;
+    transform: scale(1.05);
+}
+
+/*--------------------------------*/
+
+/*footer*/
+footer {
+    width: 100%;
+    background-color: #ddd;
+    padding: 3rem;
+}
+
+/*redes*/
+.redes img {
+    width: 2.5rem;
+}
+
+/*h5*/
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*lista*/
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*etiqueta p*/
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*--------------------*/
+/*RESPONSIVE*/
+@media (min-width:1024px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/*RESPONSVE UBICACION*/
+@media (min-width:1024px) {
+    .container01 {
+        flex-direction: row;
+    }
+}
+
+@media (min-width:1024px) {
+    .form-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+/*--------------------*/
